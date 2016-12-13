@@ -1,0 +1,4 @@
+CF_APP %{WORD}
+CF_INDEX %{NUMBER}
+APP_AND_INDEX \[%{CF_APP:cf_location}\/%{CF_INDEX:cf_index}\]
+CF_OUTPUT_SOURCE \s*%{WORD:cf_output_source}
